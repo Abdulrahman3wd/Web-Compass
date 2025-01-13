@@ -3762,12 +3762,9 @@ letters.forEach(letter => {
     }, 3000);
 });
 
-
-
 let x =  document.querySelectorAll('.card');
 
 console.log(x.length);
-
 
 
 function showCode(className) {
@@ -3801,7 +3798,6 @@ function copyCode(elementId) {
         showPopup("Failed to copy code. Please try again!", true);
     });
 }
-
 
 function filterCards() {
     let input = document.getElementById('searchInput').value.toLowerCase(); 
